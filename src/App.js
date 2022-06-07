@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Weather from "./Weather"
-import Loader from "react-loader-spinner";
+
 
 function App() {
   return (
@@ -13,14 +13,7 @@ function App() {
       
       </header>
 
-        <Loader
-        type="Puff"
-        color="#00BFFF"
-        height={100}
-        width={100}
-        timeout={3000}
-        />
-
+      
     </div>
   );
 }
